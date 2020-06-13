@@ -1,1 +1,1 @@
-ForLana --> scr --> timetable 
+ForLaba --> scr --> timetable
