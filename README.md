@@ -1,1 +1,1 @@
-scr --> timetable --> class or interface
+ForLana --> scr --> timetable 
