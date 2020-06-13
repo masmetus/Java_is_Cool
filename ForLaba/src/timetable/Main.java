@@ -14,9 +14,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         N = scanner.nextInt();
         for (int i = 0; i < N; i++) {
-            System.out.println("Введите название лекции");
+            System.out.println("Введите название предмета");
             name = scanner.next();
-            System.out.println("Введите начало лекции");
+            System.out.println("Введите дату и время начало лекции");
             datastring = scanner.next();
             start = initialize(datastring);
             System.out.println("Введите дату и время конца лекции");
@@ -27,7 +27,7 @@ public class Main {
         }
 
         print(Lect_Sorts);
-        System.out.println("Результат сортировки");
+        System.out.println("Отсортировано:");
         sort(Lect_Sorts);
         print(Lect_Sorts);
     }
